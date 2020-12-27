@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
     </head>
     <body>
-        <h1>Hello from Quebec !</h1>
+        <p>Built with &hearts; by Abdoul Aziz.</p>
 
-        <p>It's currently {{ date('G:i') }}.</p>
+        <p><a href="/">Revenir à la page d'accueil</a></p>
 
         <footer>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></footer>
     </body>
