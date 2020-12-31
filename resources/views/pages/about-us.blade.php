@@ -3,7 +3,7 @@
 @section('title', 'About Us | '.config('app.name'))
 
 @section('content')
-    <img src="/img/default.png" alt="User logo">
+    <img src="{{ asset('/img/default.png') }}" alt="User logo">
 
     <p>Built with &hearts; by Abdoul Aziz.</p>
 
